@@ -1,0 +1,48 @@
+#List of Github repos that i like to use.
+
+
+#Dashy - Browser Shortcuts and Information System 
+https://wiki.opensourceisawesome.com/link/89#bkmrk-%C2%A0---show-notes%C2%A0%C2%A0-%C2%A0-%C2%A0
+ 
+  - Show Notes 
+      - https://wiki.opensourceisawesome.com/books/self-hosted-dashboards/page/dashy-powerful-informative-configurable-self-hosting-dashboard
+      - https://wiki.opensourceisawesome.com/books/self-hosted-dashboards/page/adding-widgets-to-the-dashy-dashboard
+  - Dashy - https://dashy.to/ 
+  - Github Page - https://github.com/Lissy93/dashy
+  - Repo - https://github.com/Lissy93/dashy.git
+
+#Remotely - Remote Support Application
+"https://wiki.opensourceisawesome.com/books/remotely-remote-desktop-support/page/docker-install-of-remotely"
+
+#Vaultwarden - Syncing Password and 2FA Management
+"- Show Notes
+      - Original Video for Bitwarden - https://www.youtube.com/watch?v=f0Jq2oV_F4g&t=1s
+      - Vaultwarden - Updated System Install - https://wiki.opensourceisawesome.com/books/password-security/page/install-vaultwarden-and-host-your-own-password-manager
+  - Home Page
+      - Bitwarden - Original Project - https://bitwarden.com/
+      - Vaultwarden - https://github.com/dani-garcia/vaultwarden"
+
+#NGinX Proxy Manage - Reverse Proxy (Domain / Sub-domain) Management
+"https://wiki.opensourceisawesome.com/link/89#bkmrk-%C2%A0---show-notes%C2%A0-%C2%A0-%C2%A0--2
+
+ 
+  - Show Notes
+      - Install NGinX Proxy Manager - https://wiki.opensourceisawesome.com/books/nginx-proxy-manager/page/using-nginx-proxy-manager-for-proper-website-routing
+      - Securing NGinX Proxy Manager - https://wiki.opensourceisawesome.com/books/nginx-proxy-manager/page/securing-nginx-proxy-manager
+  - Home Page - https://nginxproxymanager.com/"
+
+#Speedtest Tracker - Keep track of your Internet Speeds
+"https://wiki.opensourceisawesome.com/link/89#bkmrk-%C2%A0---show-notes%C2%A0-%C2%A0-%C2%A0--10
+ 
+  - Show Notes
+      - https://wiki.opensourceisawesome.com/books/network-internet-speedtests/page/setting-up-speedtest-tracker
+  - Home Page - https://github.com/alexjustesen/speedtest-tracke"
+
+#Uptime Kuma - Know when your sites or services go down
+https://wiki.opensourceisawesome.com/link/89#bkmrk-%C2%A0---show-notes%C2%A0-%C2%A0-%C2%A0--11
+ 
+  - Show Notes
+      - https://wiki.opensourceisawesome.com/books/uptime-kuma/page/uptime-kuma-monitor-the-availability-of-all-of-your-self-hosted-sites
+  - Home Page - https://github.com/louislam/uptime-kuma
+
+#
