@@ -5,6 +5,7 @@
 # Define your GitHub repositories here
 repos=(
     "https://github.com/danielmiessler/SecLists.git"
+    "https://github.com/carlospolop/PEASS-ng.git"
     # ... Add more repositories
 )
 
@@ -17,6 +18,7 @@ apt_packages=(
     "zsh"
     "tmux"
     "python3-pip"
+
 
     # ... Add more packages
 )

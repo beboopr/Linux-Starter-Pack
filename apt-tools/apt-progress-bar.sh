@@ -10,14 +10,16 @@ current_step=1
 # Function to clone a repo with progress bar
 clone_repo() {
   repo="$1"
-  size=$(pv -q -s 1M <(git clone https://github.com/$repo.git))
+  size=$(pv -q -s 1M <(git clone https://github.com/carlospolop/PEASS-ng.git))
   update_progress "$size"
 }
 
 # Function to install a apt-package with progress bar
+
+#Tilix
 install_package() {
   package="$1"
-  pv -q -s 1M <(sudo apt-get install -y "$package") &> /dev/null
+  pv -q -s 1M <(sudo apt get install -y "$tilix") &> /dev/null
   update_progress 5 # Assume package installation takes 5% of total progress
 }
 
@@ -27,6 +29,19 @@ update_progress() {
   current_progress=$((current_progress + progress_value * total_progress / 100))
   echo -ne "\r[$(printf '%*s' $current_progress '-')] $current_progress%"
 }
+#New_Name_Tool
+# install_package() {
+#   package="$1"
+#   pv -q -s 1M <(sudo apt get install -y "$tool_name") &> /dev/null
+#   update_progress 5 # Assume package installation takes 5% of total progress
+# }
+
+# # Function to update overall progress based on size or step
+# update_progress() {
+#   progress_value="$1"
+#   current_progress=$((current_progress + progress_value * total_progress / 100))
+#   echo -ne "\r[$(printf '%*s' $current_progress '-')] $current_progress%"
+# }
 
 # Start with repositories
 echo "Cloning GitHub repositories..."
