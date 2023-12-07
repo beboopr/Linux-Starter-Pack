@@ -11,6 +11,7 @@ repos=(
 
 # Define your apt installation tools here
 apt_packages=(
+    "docker-compose"
     "curl"
     "git"
     "htop"
