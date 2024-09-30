@@ -13,6 +13,7 @@ repos=(
 apt_packages=(
     "gnome-text-editor"
     "docker-compose"
+    "git"
     "curl"
     "git"
     "htop"
@@ -24,7 +25,9 @@ apt_packages=(
     "tilix"
     "tmux"
     "vim"
+    "nvm"
     "zsh"
+    "zsh-autosuggestions"
     # ... Add more packages
 )
 
@@ -33,6 +36,8 @@ echo "Cloning GitHub repositories..."
 for repo in "${repos[@]}"; do
     git clone https://github.com/Z4nzu/hackingtool.git
     git clone https://github.com/tegal1337/CiLocks
+    git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
+    git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions
 done
 
 # Install apt packages
