@@ -38,6 +38,7 @@ for repo in "${repos[@]}"; do
     git clone https://github.com/tegal1337/CiLocks
     git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
     git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions
+    curl -fsSL https://bun.sh/install | bash
 done
 
 # Install apt packages
